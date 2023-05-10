@@ -79,7 +79,7 @@ function Navbar({ visible, show }) {
 							<ImBooks size={ICON_SIZE} />
 							<span>Class Subject </span>
 						</NavLink>
-						<NavLink to="/" className="nav-link">
+						<NavLink to="/demo" className="nav-link">
 							<MdOutlineExitToApp size={ICON_SIZE} />
 							<span>Log Out</span>
 						</NavLink>
