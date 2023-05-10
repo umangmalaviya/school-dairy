@@ -1,7 +1,9 @@
-.main-content{
+.main-content {
     display: flex;
 }
 
-.inner-main-content{
+.inner-main-content {
     margin-left: 50px;
+    position: relative;
+    z-index: 1;
 }

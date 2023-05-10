@@ -46,6 +46,7 @@ nav {
     width: 100px;
     margin: auto;
     background: transparent;
+    position: relative;
 }
 
 .logo img {
@@ -59,7 +60,7 @@ nav {
     align-items: center;
     color: #fff;
     text-decoration: none;
-    padding: 10px 1rem;
+    padding: 19px 0;
     border-radius: 5px;
     margin-bottom: 5px;
 }
@@ -70,11 +71,18 @@ nav {
 }
 
 .nav-link span {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .nav-top {
-    margin-top: 10rem;
+    position: relative;
+    width: 100%;
+    max-width: 165px;
+    margin: 60px auto 0;
+}
+
+.active{
+    color: #753ffd;
 }
 
 .mobile-nav {
@@ -90,28 +98,4 @@ nav {
     outline: none;
     border: none;
     margin: 0 10px;
-}
-
-@media only screen and (max-width: 768px) {
-    nav {
-        width: 40%;
-        padding: 10px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .mobile-nav {
-        display: flex;
-        align-items: center;
-    }
-
-    nav {
-        width: 70%;
-        top: 38px;
-        min-height: calc(100vh - 38px);
-    }
-
-    .nav-btn {
-        display: none;
-    }
 }
