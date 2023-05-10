@@ -1,6 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Components/Pages/Fees";
-import { useState } from "react";
 import Demo from "./Components/Pages/Demo";
 import Demoo from "./Components/Pages/Demoo";
 import Login from "./Components/Pages/Login";
