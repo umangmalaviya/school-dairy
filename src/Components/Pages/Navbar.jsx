@@ -35,51 +35,51 @@ function Navbar({ visible, show }) {
 						<img src={Logo} alt="logo" />
 					</NavLink>
 					<div className="links nav-top" style={{ zIndex: visible ? "1" : "-1" }}>
-						<NavLink to="/home" className="nav-link">
+						<NavLink to="/dashboard" className="nav-link">
 							<FaThLarge size={ICON_SIZE} />
 							<span>Dashboard</span>
 						</NavLink>
-						<NavLink to="/demo" className="nav-link">
+						<NavLink to="/id" className="nav-link">
 							<BsPersonLinesFill size={ICON_SIZE} />
 							<span>Generate ID</span>
 						</NavLink>
-						<NavLink to="#" className="nav-link">
+						<NavLink to="/exam" className="nav-link">
 							<IoIosPaper size={ICON_SIZE} />
 							<span>Exam</span>
 						</NavLink>
-						<NavLink to="#" className="nav-link">
+						<NavLink to="/fees" className="nav-link">
 							<BsCreditCard2BackFill size={ICON_SIZE} />
 							<span>Fees</span>
 						</NavLink>
-						<NavLink to="#" className="nav-link">
+						<NavLink to="/result" className="nav-link">
 							<RiFilePaperFill size={ICON_SIZE} />
 							<span>Result</span>
 						</NavLink>
-						<NavLink to="#" className="nav-link">
+						<NavLink to="/notice" className="nav-link">
 							<FaChalkboardTeacher size={ICON_SIZE} />
 							<span>Notice Board</span>
 						</NavLink>
-						<NavLink to="#" className="nav-link">
+						<NavLink to="/events" className="nav-link">
 							<SlCalender size={ICON_SIZE} />
 							<span>Events</span>
 						</NavLink>
-						<NavLink to="#" className="nav-link">
+						<NavLink to="/complain" className="nav-link">
 							<TfiDropboxAlt size={ICON_SIZE} />
 							<span>Complain Box</span>
 						</NavLink>
-						<NavLink to="#" className="nav-link">
+						<NavLink to="/holiday" className="nav-link">
 							<TbBeach size={ICON_SIZE} />
 							<span>Holidays</span>
 						</NavLink>
-						<NavLink to="#" className="nav-link">
+						<NavLink to="/time" className="nav-link">
 							<VscTable size={ICON_SIZE} />
 							<span>Time Table</span>
 						</NavLink>
-						<NavLink to="#" className="nav-link">
+						<NavLink to="/class" className="nav-link">
 							<ImBooks size={ICON_SIZE} />
 							<span>Class Subject </span>
 						</NavLink>
-						<NavLink to="#" className="nav-link">
+						<NavLink to="/" className="nav-link">
 							<MdOutlineExitToApp size={ICON_SIZE} />
 							<span>Log Out</span>
 						</NavLink>
