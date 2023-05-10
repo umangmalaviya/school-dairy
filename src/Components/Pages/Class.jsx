@@ -1,9 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "../Style/Class.css"
 import Navbar from "../Pages/Navbar"
 
 const Class = () => {
-  const [navVisible, showNavbar] = useState(true);
+    const [navVisible, showNavbar] = useState(true);
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    }, []);
     return (
         <>
             <div className="main-content">

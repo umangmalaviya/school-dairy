@@ -46,7 +46,6 @@ nav {
     width: 100px;
     margin: auto;
     background: transparent;
-    position: relative;
 }
 
 .logo img {
@@ -65,24 +64,25 @@ nav {
     margin-bottom: 5px;
 }
 
-.nav-link:hover {
-    background-color: #AFB4FF;
-    color: #4e4e4e;
-}
-
 .nav-link span {
     margin-left: 20px;
 }
 
 .nav-top {
-    position: relative;
     width: 100%;
     max-width: 165px;
     margin: 60px auto 0;
 }
 
-.nav-top .active{
-    color: #000;
+.nav-top .nav-link.active {
+    background: #fff;
+    border-radius: 5px;
+    color: #28A7E8;
+    justify-content: center;
+}
+
+.nav-top .nav-link.active span {
+    margin-left: 12px;
 }
 
 .mobile-nav {

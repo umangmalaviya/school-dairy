@@ -30,11 +30,11 @@ function Navbar({ visible, show }) {
 				<button type="button" className="nav-btn" onClick={() => show(!visible)} style={{ right: visible ? "25px" : "0px" }} >
 					{!visible ? ">" : "<"}
 				</button>
-				<div>
-					<NavLink className="logo" to="/" style={{ zIndex: visible ? "1" : "-1" }}>
+				<div style={{ display: visible ? "block" : "none" }}>
+					<NavLink className="logo" to="/">
 						<img src={Logo} alt="logo" />
 					</NavLink>
-					<div className="links nav-top" style={{ zIndex: visible ? "1" : "-1" }}>
+					<div className="links nav-top">
 						<NavLink to="/dashboard" className="nav-link">
 							<FaThLarge size={ICON_SIZE} />
 							<span>Dashboard</span>
