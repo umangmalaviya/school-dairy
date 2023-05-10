@@ -35,11 +35,11 @@ function Navbar({ visible, show }) {
 						<img src={Logo} alt="logo" />
 					</NavLink>
 					<div className="links nav-top" style={{ zIndex: visible ? "1" : "-1" }}>
-						<NavLink to="/demo" className="nav-link" activeclassname='active'>
+						<NavLink to="/home" className="nav-link">
 							<FaThLarge size={ICON_SIZE} />
 							<span>Dashboard</span>
 						</NavLink>
-						<NavLink to="/demo" className="nav-link" activeclassname='active'>
+						<NavLink to="/demo" className="nav-link">
 							<BsPersonLinesFill size={ICON_SIZE} />
 							<span>Generate ID</span>
 						</NavLink>
