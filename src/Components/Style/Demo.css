@@ -1,0 +1,7 @@
+.main-content{
+    display: flex;
+}
+
+.inner-main-content{
+    margin-left: 50px;
+}
