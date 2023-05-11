@@ -12,7 +12,8 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 250px;
+    width: 100%;
+    max-width: 280px;
     min-height: 100vh;
     background: linear-gradient(93.69deg, #00C5F9 2.23%, #0083DC 96.2%);
     padding: 2rem 1rem 1rem 1rem;
@@ -20,7 +21,7 @@ nav {
 }
 
 .navbar {
-    width: 0.5%;
+    max-width: 10px;
     padding: 0;
 }
 
@@ -88,8 +89,17 @@ nav {
     justify-content: center;
 }
 
+.nav-top .nav-link span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
 .nav-top .nav-link.active span {
     margin-left: 12px;
+    color: #28A7E8;
 }
 
 .mobile-nav {
