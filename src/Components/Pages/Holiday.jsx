@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "../Style/Holiday.css"
 import Navbar from "../Pages/Navbar"
+import Topbar from './Topbar';
 
 const Holiday = () => {
   const [navVisible, showNavbar] = useState(true);
@@ -11,8 +12,11 @@ const Holiday = () => {
     <>
       <div className="main-content">
         <Navbar visible={navVisible} show={showNavbar} />
-        <div className="inner-main-content" style={{ marginLeft: navVisible ? "50px" : "70px" }}>
-          <h4>Demo</h4>
+        <div className="inner-main-content"  >
+          <Topbar />
+          <div className="container-fluid">
+            <h4 className='main-name'>Holidays</h4>
+          </div>
         </div>
       </div>
     </>

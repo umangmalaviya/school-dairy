@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "../Style/Fees.css"
 import Navbar from "../Pages/Navbar"
+import Topbar from './Topbar';
 
 const Fees = () => {
   const [navVisible, showNavbar] = useState(true);
@@ -11,8 +12,11 @@ const Fees = () => {
     <>
       <div className="main-content">
         <Navbar visible={navVisible} show={showNavbar} />
-        <div className="inner-main-content" style={{ marginLeft: navVisible ? "50px" : "70px" }}>
-          <h4>Demo</h4>
+        <div className="inner-main-content"  >
+          <Topbar />
+          <div className="container-fluid">
+            <h4 className='main-name'>Fees</h4>
+          </div>
         </div>
       </div>
     </>

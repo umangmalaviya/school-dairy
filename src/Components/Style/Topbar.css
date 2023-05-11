@@ -60,12 +60,14 @@
     background: linear-gradient(135deg, #00C4F9 0%, #0083DC 100%);
     border-radius: 0px 5px 5px 0px;
     width: 100%;
-    max-width: 29px;
-    height: 29px;
-    padding: 15px;
+    max-width: 47px;
+    height: 58px;
+    padding: 0px;
     right: 0px;
     position: absolute;
-    ;
+    border: none;
+    cursor: pointer;
+    text-align: center;
 }
 
 .left-side {
@@ -107,8 +109,8 @@
     }
 
     .search {
-        max-width: 29px;
-        height: 29px;
+        max-width: 43px;
+        height: 47px;
         padding: 10px;
     }
 

@@ -16,7 +16,9 @@ const Demo = () => {
                 <Navbar visible={navVisible} show={showNavbar} />
                 <div className="inner-main-content">
                     <Topbar />
-                    <h4>Demo</h4>
+                    <div className="container-fluid">
+                        <h4 className='main-name'>Demo</h4>
+                    </div>
                 </div>
             </div>
         </>

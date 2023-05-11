@@ -14,7 +14,9 @@ const Time = () => {
         <Navbar visible={navVisible} show={showNavbar} />
         <div className="inner-main-content">
           <Topbar />
-          <h4>Demo</h4>
+          <div className="container-fluid">
+            <h4 className='main-name'>Time Table</h4>
+          </div>
         </div>
       </div>
     </>

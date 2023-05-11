@@ -1,0 +1,14 @@
+.container-fluid {
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.main-name {
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 33px;
+    color: #28A7E8;
+    padding: 50px 0px;
+}

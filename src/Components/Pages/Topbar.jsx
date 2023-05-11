@@ -6,7 +6,9 @@ const Topbar = () => {
         <div className="topbar">
             <div className="left-side">
                 <input type="text" placeholder='Search...' />
-                <img src={require("../Images/search.png")} alt=" " className='search' />
+                <button className='search'>
+                    <img src={require("../Images/search.png")} alt=" " />
+                </button>
             </div>
             <div className="display-flex">
                 <img src={require("../Images/notification.png")} alt=" " className='noti' />
