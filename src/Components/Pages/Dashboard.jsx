@@ -17,7 +17,12 @@ const Dashboard = () => {
                     <div className="container-fluid">
                         <h4 className='main-name'>Dashboard</h4>
                         <div className="main-upper-dashboard">
-                            .
+                            <div className="first-student">
+                                <img src={require("../Images/teacher.png")} alt="" />
+                            </div>
+                            <div className="second-student">
+                                <img src={require("../Images/classroom.png")} alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>

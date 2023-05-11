@@ -1,6 +1,5 @@
 .container-fluid {
-    margin: 0 auto;
-    padding: 0 100px;
+    padding: 0 40px;
 }
 
 .main-name {
@@ -11,4 +10,9 @@
     line-height: 33px;
     color: #28A7E8;
     padding: 50px 0px;
+}
+
+.main-upper-dashboard {
+    display: flex;
+    justify-content: space-between;
 }
