@@ -1,0 +1,75 @@
+.studentid_cnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.studentid_cnt h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 33px;
+    color: #28A7E8;
+}
+
+.studentid_cnt h3 span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.studentid_cnt .studentid_create {
+    border: 1px solid #737373;
+    border-radius: 2px;
+    width: 200px;
+    height: 50px;
+    padding: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    color: #737373;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+}
+
+.studentid_detail {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 60px;
+}
+
+.studentid_detail button {
+    width: 100%;
+    height: 50px;
+    padding: 15px 65px 15px 25px;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #737373;
+    background: transparent;
+    border: 1px solid #737373;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.studentid_detail button a {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.studentid_detail button a.edit_btn {
+    right: 50px;
+}
+
+.studentid_detail button a.delete_btn {
+    right: 25px;
+}

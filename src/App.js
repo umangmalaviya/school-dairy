@@ -13,6 +13,7 @@ import Result from "./Components/Pages/Result";
 import Time from "./Components/Pages/Time";
 import Events from "./Components/Pages/Events";
 import Dashboard from "./Components/Pages/Dashboard";
+import StudentData from "./Components/Pages/StudentData";
 function App() {
 
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/Notice" element={<Notice />} />
         <Route path="/Result" element={<Result />} />
         <Route path="/Time" element={<Time />} />
+        <Route path="/StudentData" element={<StudentData />} />
       </Routes>
     </BrowserRouter>
   );
