@@ -1,0 +1,14 @@
+.h_timetable {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 55px 19px;
+  margin: 50px auto;
+}
+
+.h_timetable input {
+  margin-top: 20px;
+  border: none;
+}
+.h_timetable hr {
+  color: "rgba(40, 167, 232, 1)";
+}
