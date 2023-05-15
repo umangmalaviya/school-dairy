@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../Style/Holiday.css";
 import Navbar from "../Pages/Navbar";
 import Topbar from "./Topbar";
-import im2 from "../Images/ed.svg";
+import im2 from "../Images/edit.svg";
 
 const Holiday = () => {
   const [navVisible, showNavbar] = useState(true);
