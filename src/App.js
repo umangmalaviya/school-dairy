@@ -34,12 +34,9 @@ function App() {
         <Route path="/Notice" element={<Notice />} />
         <Route path="/Result" element={<Result />} />
         <Route path="/Time" element={<Time />} />
-<<<<<<< HEAD
         <Route path="/StudentData" element={<StudentData />} />
-=======
         <Route path="/Holiday_two" element={<Holiday_two />} />
         <Route path="/Holiday_three" element={<Holiday_three />} />
->>>>>>> 146aca2 (12 may 2023 - 2)
       </Routes>
     </BrowserRouter>
   );

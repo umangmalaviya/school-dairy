@@ -5,7 +5,7 @@ import Navbar from "../Pages/Navbar"
 import Topbar from './Topbar';
 import { DropzoneArea } from 'material-ui-dropzone';
 import img from '../Images/hday.svg'
-import im2 from '../Images/ed.svg'
+import im2 from '../Images/edit.svg'
 
 
 const Notice = () => {
